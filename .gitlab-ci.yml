@@ -1,0 +1,13 @@
+stages:
+- test
+- deploy
+
+test_job:
+stage: test
+script:
+- echo "Tests fictifs passés avec succès "
+
+deploy_job:
+stage: deploy
+script:
+- echo "Déploiement fictif terminé "
